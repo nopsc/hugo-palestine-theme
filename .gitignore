@@ -17,8 +17,24 @@ _cgo_defun.c
 _cgo_gotypes.go
 _cgo_export.*
 
+public
+
 _testmain.go
 
 *.exe
 *.test
 *.prof
+
+hugo
+docs/public*
+/.idea
+hugo.exe
+*.test
+*.prof
+nohup.out
+cover.out
+*.swp
+*.swo
+.DS_Store
+*~
+vendor/*/
