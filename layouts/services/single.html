@@ -1,2 +1,3 @@
 {{ partial "shared/top.html" . }}
+{{ partial "sections/services.html" (dict "services" .Site.Params.services "Site" .Site) }}
 {{ partial "shared/bottom.html" . }}
