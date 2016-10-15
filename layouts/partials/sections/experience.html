@@ -6,12 +6,12 @@
         {{ $baseUrl := .Site.BaseURL }}
 
         <div class="carousel-item active">
-          <img src="{{ $baseUrl }}{{ .experience.firstItemSrc }}" alt="Experience NOPSC">
+          <img src="{{ $baseUrl }}{{ .experience.firstItemSrc }}" class="m-x-auto experience-item" alt="Experience NOPSC">
         </div>
 
         {{ range .experience.item }}
           <div class="carousel-item">
-            <img src="{{ $baseUrl }}{{ .src }}" class="img-fluid" alt="Experience NOPSC">
+            <img src="{{ $baseUrl }}{{ .src }}" class="m-x-auto experience-item" alt="Experience NOPSC">
           </div>
         {{ end }}
       </div>
